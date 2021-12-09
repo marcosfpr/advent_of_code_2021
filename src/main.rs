@@ -4,6 +4,7 @@ mod aoc_ex_3;
 mod aoc_ex_4;
 mod aoc_ex_5;
 mod aoc_ex_6;
+mod aoc_ex_7;
 
 
 use std::time::{Instant};
@@ -34,8 +35,12 @@ fn main() {
 
     //Exercise 6
     // println!("Part 1: {}", aoc_ex_6::resolve_part_1("./inputs/input06.txt",  80));
-    println!("Part 1: {}", aoc_ex_6::resolve_part_2("./inputs/input06.txt",  256));
+    // println!("Part 2: {}", aoc_ex_6::resolve_part_2("./inputs/input06.txt",  256));
 
+    //Exercise 7
+    // println!("Part 1: {}", aoc_ex_7::resolve_part_1("./inputs/input07.txt"));
+    println!("Part 2: {}", aoc_ex_7::resolve_part_2("./inputs/input07.txt"));
+    
     println!("Time elapsed (s): {}", now.elapsed().as_millis());
 
 }
