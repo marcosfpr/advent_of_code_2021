@@ -1,6 +1,5 @@
 use std::{
-    char::ToLowercase,
-    collections::{HashMap, HashSet, VecDeque},
+    collections::VecDeque,
 };
 
 #[path = "aoc_utils.rs"]
