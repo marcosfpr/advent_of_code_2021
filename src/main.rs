@@ -16,6 +16,7 @@ mod aoc_ex_15;
 mod aoc_ex_16;
 mod aoc_ex_17;  
 mod aoc_ex_18;
+mod aoc_ex_19;
 
 use std::time::{Instant};
 
@@ -93,8 +94,12 @@ fn main() {
     
     //Exercise 18
     // println!("Part 1: {}", aoc_ex_18::resolve_part_1("./inputs/input18.txt"));
-    println!("Part 2: {}", aoc_ex_18::resolve_part_2("./inputs/input18.txt"));
+    // println!("Part 2: {}", aoc_ex_18::resolve_part_2("./inputs/input18.txt"));
 
+    //Exercise 19
+    println!("Part 1: {}", aoc_ex_19::resolve_part_1("./inputs/input19.txt"));
+    println!("Part 2: {}", aoc_ex_19::resolve_part_2("./inputs/input19.txt"));  
+    
     println!("Time elapsed (s): {}", now.elapsed().as_millis());
 
 }
