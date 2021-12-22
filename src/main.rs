@@ -102,7 +102,8 @@ fn main() {
     // println!("Part 2: {}", aoc_ex_19::resolve_part_2("./inputs/input19.txt"));  
     
     //Exercise 20
-    println!("Part 1: {}", aoc_ex_20::resolve_part_1("./inputs/input20.txt"));   
+    // println!("Part 1: {}", aoc_ex_20::resolve_part_1("./inputs/input20.txt"));   
+    println!("Part 2: {}", aoc_ex_20::resolve_part_2("./inputs/input20.txt"));
 
     println!("Time elapsed (s): {}", now.elapsed().as_millis());
 
